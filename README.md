@@ -1,6 +1,8 @@
+# Weather
+
 Used SwifUI most of the project but to show an example of mixing UIKIT and SwiftUI I have created a navigation viewcontroller of UIKIT.
 
-Architecture
+# Architecture
 Followed MVVM architecture:
 
 
@@ -9,7 +11,7 @@ Repository - Responsible to fetch data from server and store data into database 
 
 No External (3rd party) libraries are used to build this project
 
-Improvements
+# Improvements
 Created separate swift package for screens/flows, utils, core things that can be resued in another places.
 Add Hourly data to the Weather details screen
 Add Reactive Database either Coredata/Realm instead of UserDefaults used to store City inform
