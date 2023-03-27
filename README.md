@@ -6,8 +6,10 @@ Used SwifUI most of the project but to show an example of mixing UIKIT and Swift
 Followed MVVM architecture:
 
 
-ViewModel - Fetches data from Repository and updates the state objects which eventually updates the UI. 
-Repository - Responsible to fetch data from server and store data into database if offline support is required ViewController - Controls refreshing and actions of view.
+ViewModel - Fetches data from Repository and updates the state objects which eventually updates the UI.
+Model - Holds the displayable Data
+Repository - Responsible to fetch data from server and store data into database if offline support is required 
+SwiftUI(views) - Controls refreshing and actions of view.
 
 No External (3rd party) libraries are used to build this project
 
